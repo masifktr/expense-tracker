@@ -9,14 +9,13 @@ export default function App() {
   return (
     <GlobalProvider>
     <div className="bg-blue-200">
-      <div className="bg-blue-300 mx-44">
     <Header/>
     <Balance/>
     <AccountSummary/>
     <TransactionHistory/>
     <AddTransation/>
     </div>
-    </div>
+    
     </GlobalProvider>
   )
 }
