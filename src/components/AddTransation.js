@@ -8,7 +8,7 @@ export const AddTransation = () => {
         
       
 
-    <div className='flex justify-center max-w-sm mx-auto shadow-2xl bg-white pb-3'>
+    <div className='flex justify-center max-w-xs mx-auto shadow-2xl bg-white pb-3'>
         
         <form>
         <h3 className='text-center mt-3 font-bold text-2xl'>Add New Transaction</h3> 

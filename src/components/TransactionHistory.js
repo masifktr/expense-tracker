@@ -9,7 +9,7 @@ export const TransactionHistory = () => {
   return (
     <div>
         
-        <ul className='flex flex-col items-center max-w-sm mx-auto shadow-2xl bg-white my-2'>
+        <ul className='flex flex-col items-center max-w-xs mx-auto shadow-2xl bg-white my-2'>
         <h3 className='font-bold text-center my-2 text-2xl'>Transaction History</h3>
           {
             transactions.map(transactions => (
